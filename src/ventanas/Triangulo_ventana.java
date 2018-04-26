@@ -150,7 +150,7 @@ public class Triangulo_ventana extends javax.swing.JFrame {
 
         jLabel_copyright.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jLabel_copyright.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel_copyright.setText("Copyright 2017  Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
+        jLabel_copyright.setText("Copyright 2018 Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
         getContentPane().add(jLabel_copyright, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 530, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(63, 81, 181));

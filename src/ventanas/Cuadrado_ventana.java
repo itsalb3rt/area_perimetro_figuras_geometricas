@@ -74,7 +74,7 @@ public class Cuadrado_ventana extends javax.swing.JFrame {
         jButton_cerrar.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jButton_cerrar.setForeground(new java.awt.Color(255, 255, 255));
         jButton_cerrar.setText("X");
-        jButton_cerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton_cerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton_cerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_cerrarActionPerformed(evt);
@@ -86,7 +86,7 @@ public class Cuadrado_ventana extends javax.swing.JFrame {
         jButton_volver_menu.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jButton_volver_menu.setForeground(new java.awt.Color(255, 255, 255));
         jButton_volver_menu.setText("< Volver al menu");
-        jButton_volver_menu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton_volver_menu.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton_volver_menu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton_volver_menuMouseClicked(evt);
@@ -128,7 +128,7 @@ public class Cuadrado_ventana extends javax.swing.JFrame {
         jButton_calcular_area_cuadrado.setBackground(new java.awt.Color(3, 169, 244));
         jButton_calcular_area_cuadrado.setForeground(new java.awt.Color(255, 255, 255));
         jButton_calcular_area_cuadrado.setText("Calcular");
-        jButton_calcular_area_cuadrado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton_calcular_area_cuadrado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton_calcular_area_cuadrado.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton_calcular_area_cuadradoMouseClicked(evt);
@@ -152,7 +152,7 @@ public class Cuadrado_ventana extends javax.swing.JFrame {
         jButton_calcular_perimetro_cuadrado.setBackground(new java.awt.Color(3, 169, 244));
         jButton_calcular_perimetro_cuadrado.setForeground(new java.awt.Color(255, 255, 255));
         jButton_calcular_perimetro_cuadrado.setText("Calcular");
-        jButton_calcular_perimetro_cuadrado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton_calcular_perimetro_cuadrado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton_calcular_perimetro_cuadrado.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton_calcular_perimetro_cuadradoMouseClicked(evt);
@@ -205,7 +205,7 @@ public class Cuadrado_ventana extends javax.swing.JFrame {
 
         jLabel_copyright.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jLabel_copyright.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel_copyright.setText("Copyright 2017  Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
+        jLabel_copyright.setText("Copyright 2018  Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
         getContentPane().add(jLabel_copyright, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 530, -1, -1));
 
         jLabel_encabezado.setFont(new java.awt.Font("Lemon/Milk", 1, 24)); // NOI18N

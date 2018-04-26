@@ -142,7 +142,7 @@ public class menu_principal extends javax.swing.JFrame {
 
         jLabel_copyright.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jLabel_copyright.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel_copyright.setText("Copyright 2017  Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
+        jLabel_copyright.setText("Copyright 2018  Albert E. Hidalgo Taveras. Todos los Derechos Reservados.");
         getContentPane().add(jLabel_copyright, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 510, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 670, 10));
 
